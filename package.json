@@ -1,0 +1,11 @@
+{
+  "name": "stensyl",
+  "version": "1.0.0",
+  "description": "A browser extension that overlays a **design screenshot** on top of the page you’re building so you can compare implementation to design—like a **stencil**—without juggling Figma (or another design tool) and your HTML/CSS in separate tabs.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ebenezer Dadzie",
+  "license": "ISC"
+}
