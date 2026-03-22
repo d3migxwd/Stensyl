@@ -5,7 +5,7 @@ Thanks for your interest in helping improve Stensyl.
 ## Ways to contribute
 
 - **Bug reports** — Open an issue with steps to reproduce, browser + extension version, and what you expected vs what happened.
-- **Feature ideas** — Open an issue to discuss before large changes; small improvements can go straight to a PR.
+- **Feature ideas** — Open an issue to discuss before large changes; small improvements can go straight to a PR. Planned features are listed in [docs/FUTURE-FEATURES.md](docs/FUTURE-FEATURES.md).
 - **Pull requests** — Fix bugs, improve docs, or add features that fit the project goals (see [README.md](README.md)).
 
 ## Before you send a PR

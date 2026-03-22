@@ -10,4 +10,4 @@ See **[content/README.md](content/README.md)** for how the content scripts are o
 
 **Privacy:** [PRIVACY.md](PRIVACY.md) — all data stays local; no accounts or telemetry.
 
-Want to help? See **[CONTRIBUTORS.md](CONTRIBUTORS.md)**.
+Want to help? See **[CONTRIBUTORS.md](CONTRIBUTORS.md)**. Planned features: **[docs/FUTURE-FEATURES.md](docs/FUTURE-FEATURES.md)**.

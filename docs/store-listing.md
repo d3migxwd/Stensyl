@@ -4,11 +4,7 @@ Use these when submitting to the Chrome Web Store and Firefox Add-ons (AMO).
 
 ### Privacy policy URL
 
-After publishing via GitHub Pages (see [docs/GITHUB-PAGES.md](GITHUB-PAGES.md)):
-
-```
-https://YOUR_USERNAME.github.io/Stensyl/privacy.html
-```
+**https://d3migxwd.github.io/Stensyl/privacy.html**
 
 Use this URL in the Chrome Web Store and AMO listing forms.
 

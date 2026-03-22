@@ -36,4 +36,4 @@ Stensyl requests:
 
 ## Contact
 
-If you have questions about this policy, open an issue in the [Stensyl repository](https://github.com/ebenezardadzie/stensyl) or contact the maintainer.
+If you have questions about this policy, open an issue in the [Stensyl repository](https://github.com/d3migxwd/Stensyl) or contact the maintainer.

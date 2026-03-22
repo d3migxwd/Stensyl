@@ -5,7 +5,7 @@ The Chrome Web Store and Firefox AMO require a privacy policy URL. Use GitHub Pa
 ## 1. Push the repo to GitHub
 
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/Stensyl.git  # if not already set
+git remote add origin https://github.com/d3migxwd/Stensyl.git  # if not already set
 git push -u origin main
 ```
 
@@ -19,14 +19,8 @@ git push -u origin main
 
 ## 3. Privacy policy URL
 
-After a minute or two, the policy will be at:
+The policy is live at:
 
-```
-https://YOUR_USERNAME.github.io/Stensyl/privacy.html
-```
+**https://d3migxwd.github.io/Stensyl/privacy.html**
 
 Use this URL when submitting to the Chrome Web Store and Firefox AMO.
-
-## 4. Update the GitHub URL in PRIVACY.md
-
-If your username or repo name differs, update the contact link in `PRIVACY.md` and `docs/privacy.html`.
