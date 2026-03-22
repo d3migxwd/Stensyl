@@ -79,7 +79,7 @@ function createOverlay() {
     ${createUploadScreen()}
   `;
   document.body.appendChild(extensionArea);
-  console.log("upload screen created");
+  if (STENSYL_DEBUG) console.log("upload screen created");
   //  --------- END OF INITIATE PAGE ---------
 
   // upload image handler logic
@@ -143,12 +143,14 @@ function createOverlay() {
             clearTimeout(errorTimeoutId);
             errorTimeoutId = null;
           }
-          console.log("Before class change:", uploadLabel.className);
+          if (STENSYL_DEBUG)
+            console.log("Before class change:", uploadLabel.className);
 
           uploadContent.classList.remove("active", "failed");
           uploadContent.classList.add("success");
 
-          console.log("After class change:", uploadLabel.className);
+          if (STENSYL_DEBUG)
+            console.log("After class change:", uploadLabel.className);
         }
       });
     };
@@ -164,7 +166,7 @@ function createOverlay() {
       chrome.storage.local.remove("lastScreenshot", () => {
         if (chrome.runtime.lastError) {
           console.error("Error clearing storage:", chrome.runtime.lastError);
-        } else {
+        } else if (STENSYL_DEBUG) {
           console.log("Memory cleared: lastScreenshot removed.");
         }
       });
@@ -183,7 +185,7 @@ function createOverlay() {
   const continueBtn = document.getElementById("continue-btn");
   if (continueBtn) {
     continueBtn.addEventListener("click", () => {
-      console.log("Transitioning to canvas...");
+      if (STENSYL_DEBUG) console.log("Transitioning to canvas...");
       switchToCanvas();
     });
   }

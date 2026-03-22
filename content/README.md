@@ -24,7 +24,7 @@ Scripts run in **manifest order**; each file shares the same global scope (no `i
 | ----: | --- | --- |
 | 1 | `scroll.js` | `restoreScroll`, `stopScroll` |
 | 2 | `state.js` | `toolObject`, `getActiveTool`, `getDisplayPercentForActiveTool` |
-| 3 | `utils.js` | `clamp` |
+| 3 | `utils.js` | `STENSYL_DEBUG`, `clamp` |
 | 4 | `canvas-html.js` | `createCanvasHTML`, `blurButton` |
 | 5 | `image-drag.js` | `initImageDrag` |
 | 6 | `canvas-controls.js` | `initCanvasToggle`, `initCanvasTools` |

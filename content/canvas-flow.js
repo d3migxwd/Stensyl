@@ -10,7 +10,7 @@ async function switchToCanvas() {
     if (result.lastScreenshot) {
       // Inject the HTML with the actual Base64 string
       extensionArea.innerHTML = createCanvasHTML(result.lastScreenshot);
-      console.log("Canvas screen loaded.");
+      if (STENSYL_DEBUG) console.log("Canvas screen loaded.");
 
       // Initialize any canvas-specific logic here.
       initCanvasToggle();

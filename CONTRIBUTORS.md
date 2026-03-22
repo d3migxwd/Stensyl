@@ -19,6 +19,7 @@ Thanks for your interest in helping improve Stensyl.
 - This repo uses **classic scripts** (no bundler): globals are shared across files under `content/`; order matters.
 - **CSS** for the overlay lives in [content.css](content.css).
 - **Manifest** is MV3; background is [background.js](background.js), popup is [popup.html](popup.html).
+- **Version bump** — With git: `npm version patch` (or `minor` / `major`). That updates [package.json](package.json), runs [scripts/sync-manifest-version.js](scripts/sync-manifest-version.js) so [manifest.json](manifest.json) matches, stages `manifest.json`, then creates the version commit and tag. Without `npm version`, change `version` in `package.json` and run `npm run sync-manifest-version`.
 
 ## Conduct
 

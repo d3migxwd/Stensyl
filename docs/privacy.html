@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Stensyl</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 0 auto; padding: 2rem; line-height: 1.6; color: #333; }
+    h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    .meta { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    p { margin: 0.5rem 0; }
+    ul { margin: 0.5rem 0; padding-left: 1.5rem; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy — Stensyl</h1>
+  <p class="meta">Last updated: March 2025</p>
+
+  <p>Stensyl is a browser extension that overlays design screenshots on web pages so you can compare your implementation to the design. This policy explains how we handle your data.</p>
+
+  <h2>Data We Collect</h2>
+  <p><strong>We do not collect, transmit, or store any of your data on our servers.</strong> Stensyl does not use accounts, analytics, or telemetry.</p>
+
+  <h2>Data Stored Locally</h2>
+  <p>Stensyl stores one item on your device using the browser's local storage (<code>chrome.storage.local</code>):</p>
+  <ul>
+    <li><strong>Last uploaded screenshot</strong> — The image you upload (PNG or JPEG) is stored locally as a base64 string so it can be shown as an overlay. This data never leaves your device.</li>
+  </ul>
+
+  <h2>Data Sharing</h2>
+  <p>We do not share any data with third parties. Stensyl does not send information to any external servers.</p>
+
+  <h2>Data Retention</h2>
+  <p>The screenshot is stored until you:</p>
+  <ul>
+    <li>Click <strong>Stop Stensyl</strong> (which clears it), or</li>
+    <li>Uninstall the extension, or</li>
+    <li>Clear the extension's storage in your browser settings.</li>
+  </ul>
+
+  <h2>Permissions</h2>
+  <p>Stensyl requests:</p>
+  <ul>
+    <li><strong>Storage</strong> — To save the screenshot locally on your device.</li>
+    <li><strong>Active tab</strong> — To show the overlay on the page you're viewing when you use the extension.</li>
+    <li><strong>Access to http/https pages</strong> — So the overlay can run on normal web pages (including localhost) where you're building UI.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>If you have questions about this policy, open an issue in the <a href="https://github.com/ebenezardadzie/stensyl">Stensyl repository</a> or contact the maintainer.</p>
+</body>
+</html>

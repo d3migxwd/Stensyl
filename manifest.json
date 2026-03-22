@@ -2,17 +2,34 @@
   "manifest_version": 3,
   "name": "Stensyl",
   "version": "1.0.0",
-  "description": "A Chrome extension",
+  "description": "Overlay design screenshots on live pages to compare your UI to the design like a stencil without juggling Figma and the browser.",
+  "icons": {
+    "16": "assets/images/logos/icon-16.png",
+    "32": "assets/images/logos/icon-32.png",
+    "48": "assets/images/logos/icon-48.png",
+    "128": "assets/images/logos/icon-128.png"
+  },
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/images/logos/icon-16.png",
+      "32": "assets/images/logos/icon-32.png",
+      "48": "assets/images/logos/icon-48.png",
+      "128": "assets/images/logos/icon-128.png"
+    }
   },
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "css": ["content.css"],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "css": [
+        "content.css"
+      ],
       "js": [
         "content/scroll.js",
         "content/state.js",
@@ -27,11 +44,9 @@
       "run_at": "document_idle"
     }
   ],
-  "web_accessible_resources": [
-    {
-      "resources": ["assets/images/*"],
-      "matches": ["<all_urls>"]
-    }
-  ],
-  "permissions": ["storage", "activeTab", "unlimitedStorage"]
+  "permissions": [
+    "storage",
+    "activeTab",
+    "unlimitedStorage"
+  ]
 }

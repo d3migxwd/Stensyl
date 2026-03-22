@@ -8,7 +8,7 @@ const toolObject = {
       currentValue: 1,
       min: 0.2,
       max: 2,
-      step: 0.01,
+      step: 0.005,
       onChange(value) {
         toolObject.tools.scale.currentValue = value;
       },
